@@ -102,7 +102,6 @@ public class MemberManager {
 	public void addStudent(TeamManager tm) {	
 		Scanner sc = new Scanner(System.in);
 		System.out.println("<학생 멤버 추가>");
-		id = 6;
 		System.out.println(" - ID: "+id);
 		System.out.print(" - 이름: ");
 		String name = sc.next();
